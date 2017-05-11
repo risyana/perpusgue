@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
 .table_large {
 	width: 50%;
 }
@@ -69,5 +71,40 @@ a:visited{
 body{
 	text-align: center;
 	margin: auto;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+body > div {
 	margin:0px 100px 0px 100px ;
+}
+
+input {
+	font-family: 'Ubuntu', sans-serif;
+	border-radius: 2px;
+	font-size: 15px;
+	border: 1px solid gray;
+	padding: 4px;
+	height: 40px;
+}
+
+input[type=submit], input[type=button]{
+	background-color: #2454a0;
+	color: white;
+	width: 150px;
+}
+input[type=submit]:hover, input[type=button]:hover{
+	background-color: #2a67c9;
+	cursor: pointer;
+}
+
+input[name='year']{
+}
+
+h1{
+	background-color: #143366;
+	padding-bottom: 5px;
+}
+
+h1 > a {
+	color: white;
 }
